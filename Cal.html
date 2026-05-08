@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Cal.css">
+    <script defer src="Cal.js"></script>
+</head>
+<body>
+    <div id="Container">
+        <div id="Bar" style="padding-left: 
+        105px; padding-top: 5px;">Calculator</div>
+        <div id="Screen"> </div>
+        <div id="bottom" >
+            <button onclick="keypress('%')" id="Module">%</button>
+            <button onclick="OneoverX()" id="Oneover">1/x</button>
+            <button onclick="Clean()" id="Clear">Cls</button>
+            <button onclick="Back()" id="Back">×</button>
+            <button onclick="Exponential()" id="Exponent">2^</button>
+            <button onclick="Xsquare()" id="Square">X²</button>
+            <button onclick="SquareRoot()" id="Underoot">²√x</button>
+            <button onclick="keypress('/')" id="Divide">/</button>
+            <button onclick="keypress('7')" id="Seven">7</button>
+            <button onclick="keypress('8')" id="Eight">8</button>
+            <button onclick="keypress('9')" id="Nine">9</button>
+            <button onclick="keypress('*')" id="Multiply">*</button>
+            <button onclick="keypress('4')" id="Four">4</button>
+            <button onclick="keypress('5')" id="Five">5</button>
+            <button onclick="keypress('6')" id="Six">6</button>
+            <button onclick="keypress('-')" id="Subtraction">-</button>
+            <button onclick="keypress('1')" id="One" value="1">1</button>
+            <button onclick="keypress('2')" id="Two">2</button>
+            <button onclick="keypress('3')" id="Three">3</button>
+            <button onclick="keypress('+')" id="Addition">+</button>
+            <button onclick="Factorial()" id="Fact">n!</button>
+            <button onclick="keypress('0')" id="Zero">0</button>
+            <button onclick="keypress('.')" id="Point">.</button>
+            <button onclick="Calculation()" id="Equal">=</button>
+        </div> 
+    </div>
+</body>
+</html>
