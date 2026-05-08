@@ -1,0 +1,64 @@
+#Container
+{
+    display: grid;
+    place-self: center;
+    grid-template-rows: 30px 80px;
+    border: 3px solid rgb(126, 122, 122);
+    background-color: floralwhite;
+    box-shadow:
+    3px 3px 3px rgb(211, 224, 91),
+    -3px -2px 3px rgb(226, 236, 85);
+    width: 301px;
+    border-collapse: collapse;
+    height: 501px;
+    border-radius: 10px;
+}
+
+
+#Container>div
+{
+    border-bottom: 3px solid rgb(163, 130, 130);
+}
+#Screen
+{
+    font-size: xx-large;
+    background-color: rgb(215, 247, 247);
+    place-content: end;
+    text-align: end;
+    padding-bottom: 5px;
+    width: 301px;
+    overflow: hidden;
+    height: 73px;
+}
+
+#bottom
+{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(6, 65px);
+    border-radius: 10px;
+}
+
+#bottom>button
+{
+    border: 1px solid skyblue;
+    background-color: rgb(245, 240, 236);
+    border-radius: 5px;
+    margin: 1.5px;
+    place-content: center;
+    font-size: x-large;
+    transition: 0.2s;
+}
+
+#bottom>button:hover
+{
+    background-color: rgb(243, 162, 243);
+    cursor: pointer;
+}
+
+#bottom>button:active
+{
+    transform: scale(1.2);
+    background-color: rgb(235, 206, 89);
+}
+
